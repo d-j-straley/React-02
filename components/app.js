@@ -2,13 +2,17 @@ import Banner from './banner';
 
 const App = () => {
 
-    const jsx = <div>Hello World</div>;
+    const abc = <div>Top Secret Clearance Required</div>;
 
     return (
 
     <div>
-        {jsx}
-        <Banner>Every house comes with a helicopter pad!</Banner>
+            {abc}
+            <Banner>
+                <h2>
+                    Every house comes with a helicopter pad!
+                </h2>
+            </Banner>
     </div>
     );
 };
