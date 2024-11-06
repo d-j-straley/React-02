@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import HouseRow from "./houseRow";
-// import HouseRow from "./houseRow";
 
 const houseArray = [
   {
@@ -18,6 +17,7 @@ const houseArray = [
 ];
 
 const HouseList = () => {
+
   const [houses, setHouses] = useState(houseArray);
 
   const addHouse = () => {
